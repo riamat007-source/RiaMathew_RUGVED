@@ -9,7 +9,6 @@ def val(x):
                 sum+=y%10
                 y=y//10
     for i in x[1::2]:
-        \
         sum+=int(i)
     if sum%10==0:
         print("credit card number is valid")
